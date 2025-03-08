@@ -1,0 +1,36 @@
+﻿  CosineSimilarity.cpp
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\Trie.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         with
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         [
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:             _Ty=int
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         ]
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(178,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\CosineSimilarity.cpp(68,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Exception.cpp
+  Paper-plagiarism-check.h
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\Trie.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         with
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         [
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:             _Ty=int
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         ]
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(178,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  TextIO.cpp
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\Trie.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         with
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         [
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:             _Ty=int
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         ]
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(178,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\Trie.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         with
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         [
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:             _Ty=int
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(162,25): warning C4267:         ]
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\cppjieba\include\cppjieba\HMMSegment.hpp(178,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  Paper plagiarism check.vcxproj -> C:\Users\LinB\Desktop\c++\Paper plagiarism check\x64\Debug\Paper plagiarism check.exe
