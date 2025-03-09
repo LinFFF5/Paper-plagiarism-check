@@ -1,10 +1,5 @@
 #include "Paper-plagiarism-check.h"
 using namespace std;
-const char* const DICT_PATH = "dict/jieba.dict.utf8";
-const char* const HMM_PATH = "dict/hmm_model.utf8";
-const char* const USER_DICT_PATH = "dict/user.dict.utf8";
-const char* const IDF_PATH = "dict/idf.utf8";
-const char* const STOP_WORD_PATH = "dict/stop_words.utf8";
 
 
 int main(int argc, char* argv[]) {
@@ -14,7 +9,13 @@ int main(int argc, char* argv[]) {
     }
     try {
         // 初始化cppjieba
-        cppjieba::Jieba jieba(DICT_PATH, HMM_PATH, USER_DICT_PATH, IDF_PATH, STOP_WORD_PATH);
+        cppjieba::Jieba jieba(
+            "C:/Users/LinB/Desktop/c++/Paper plagiarism check/x64/Debug/dict/jieba.dict.utf8",
+            "C:/Users/LinB/Desktop/c++/Paper plagiarism check/x64/Debug/dict/hmm_model.utf8",
+            "C:/Users/LinB/Desktop/c++/Paper plagiarism check/x64/Debug/dict/user.dict.utf8",
+            "C:/Users/LinB/Desktop/c++/Paper plagiarism check/x64/Debug/dict/idf.utf8",
+            "C:/Users/LinB/Desktop/c++/Paper plagiarism check/x64/Debug/dict/stop_words.utf8"
+        );
 
         // 读取文本
         string originalText = readFile(argv[1]);

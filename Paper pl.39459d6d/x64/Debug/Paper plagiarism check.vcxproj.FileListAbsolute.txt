@@ -1,0 +1,2 @@
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\x64\Debug\Paper plagiarism check.exe.lastcodeanalysissucceeded
+C:\Users\LinB\Desktop\c++\Paper plagiarism check\Paper pl.39459d6d\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -24,9 +24,6 @@
     <ClCompile Include="TextIO.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Exception.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CosineSimilarity.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
