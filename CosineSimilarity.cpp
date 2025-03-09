@@ -3,34 +3,38 @@
 // 去除左右空白字符
 string trim(const string& s) {
     auto start = s.begin();
-    while (start != s.end() && isspace(*start)) {
+    while (start != s.end() && isspace(static_cast<unsigned char>(*start))) {
         start++;
     }
     auto end = s.end();
     do {
         end--;
-    } while (distance(start, end) > 0 && isspace(*end));
+    } while (distance(start, end) > 0 && isspace(static_cast<unsigned char>(*end)));
     return string(start, end + 1);
 }
 
-// 使用 cppjieba 对文本进行分词（预处理包）
+//使用 cppjieba 对文本进行分词
 vector<string> tokenize(const string& text, cppjieba::Jieba& jieba) {
     string trimmedText = trim(text);
-    //非空判断
+
+    // 非空判断
     if (trimmedText.empty()) {
         throw invalid_argument("输入文本不能为空或仅包含空白字符");
     }
+
+    // 分词
     vector<string> words;
     jieba.Cut(trimmedText, words, true);
-    // 过滤掉所有空 token
+
+    // 过滤空 token
     vector<string> filtered;
     for (const string& word : words) {
         if (!word.empty() && word.find_first_not_of(" \t\r\n") != string::npos)
             filtered.push_back(word);
     }
+
     return filtered;
 }
-
 
 // 词频统计
 unordered_map<string, int> getWordFrequency(const vector<string>& words) {
@@ -75,7 +79,8 @@ unordered_map<string, double> calculateTFIDF(const vector<string>& words, const 
 }
 
 // 基于TF-IDF权重计算余弦相似度
-double cosineSimilarityTFIDF(const unordered_map<string, double>& tfidf1,const unordered_map<string, double>& tfidf2) {
+double cosineSimilarityTFIDF(const unordered_map<string, double>& tfidf1, const unordered_map<string, double>& tfidf2) {
+
     double dotProduct = 0.0, norm1 = 0.0, norm2 = 0.0;
     unordered_set<string> keys;
     for (const auto& pair : tfidf1) keys.insert(pair.first);

@@ -38,6 +38,7 @@ int main(int argc, char* argv[]) {
         writeFile(argv[3], similarity);
         cout << "查重完成，相似度: " << fixed << setprecision(2) << similarity << endl;
     }
+
     catch (const exception& e) {
         cerr << "错误: " << e.what() << endl;
         return 1;

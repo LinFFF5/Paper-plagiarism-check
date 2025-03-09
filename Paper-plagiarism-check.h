@@ -13,6 +13,7 @@
 #include <cctype>
 using namespace std;
 
+
 //Coine
 string trim(const string& s);
 vector<string> tokenize(const string& text, cppjieba::Jieba& jieba);
