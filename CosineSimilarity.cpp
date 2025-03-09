@@ -83,6 +83,7 @@ double cosineSimilarityTFIDF(const unordered_map<string, double>& tfidf1, const 
 
     double dotProduct = 0.0, norm1 = 0.0, norm2 = 0.0;
     unordered_set<string> keys;
+
     for (const auto& pair : tfidf1) keys.insert(pair.first);
     for (const auto& pair : tfidf2) keys.insert(pair.first);
     for (const auto& key : keys) {
